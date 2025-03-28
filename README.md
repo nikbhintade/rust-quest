@@ -7,6 +7,7 @@ A collection of Rust projects I built while learning.
 | Project Name  | Path                     | Description                          |
 |--------------|--------------------------|--------------------------------------|
 | simple_avg   | `crates/simple_avg`       | A program that calculates the average of user-input numbers. |
+| file_writer   | `crates/file_writer`       | A program appends a line of text to a file, creating it if it doesn’t exist. |
 
 ## 📦 Installation  
 

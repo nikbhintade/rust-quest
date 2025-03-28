@@ -3,5 +3,9 @@
 version = 3
 
 [[package]]
+name = "file_writer"
+version = "0.1.0"
+
+[[package]]
 name = "simple_avg"
 version = "0.1.0"
