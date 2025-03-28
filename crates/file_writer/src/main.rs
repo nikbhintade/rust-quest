@@ -1,10 +1,12 @@
-use std::{fs::OpenOptions, io::Write};
+use std::{env, fs::OpenOptions, io::Write};
 
 fn main() {
-    let file = OpenOptions::new()
-        .append(true)
-        .create(true)
-        .open("dummy_text.txt");
+    let path = env::args().nth(1).unwrap_or_else(|| {
+        eprintln!("Error: No file path provided");
+        std::process::exit(1);
+    });
+
+    let file = OpenOptions::new().append(true).create(true).open(&path);
 
     let data = "Test Line\n";
     match file {

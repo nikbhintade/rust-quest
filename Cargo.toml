@@ -1,2 +1,2 @@
 [workspace]
-members = [ "crates/file_writer","crates/simple_avg"]
+members = [ "crates/file_reader", "crates/file_writer","crates/simple_avg"]

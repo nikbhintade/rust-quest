@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "file_reader"
+version = "0.1.0"
+
+[[package]]
 name = "file_writer"
 version = "0.1.0"
 
