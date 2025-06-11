@@ -1,2 +1,10 @@
 [workspace]
-members = [ "crates/file_reader", "crates/file_writer","crates/simple_avg"]
+members = [ "crates/axum_api_key_auth", "crates/axum_api_rate_limit_by_user", "crates/axum_auth_jwt", "crates/axum_auth_oauth2", "crates/axum_auth_password", "crates/axum_echo_data", "crates/axum_file_upload", "crates/axum_hello_world", "crates/axum_link_shortener", "crates/axum_middleware", "crates/axum_query_para", "crates/axum_uuid_return", "crates/crud_sqlite", "crates/csv_rw", "crates/diesel_postgres", "crates/diesel_sqlite", "crates/duckdb_hello_world", "crates/duckdb_parquet",
+    "crates/file_reader",
+    "crates/file_writer",
+    "crates/json_crud",
+    "crates/json_reader",
+    "crates/json_writer", "crates/package_json_generator", "crates/parquet_hello_world",
+    "crates/simple_avg", "crates/ws_hello_world", "crates/ws_rw", "crates/yaml_reader", "crates/yaml_writer",
+]
+resolver = "2"

@@ -25,7 +25,7 @@ cargo build
 
 Run a specific project:  
 ```sh
-cargo run -p <project-name>
+cargo run -p <project-name> <arguments>
 ```
 
 ## 💡 Project Ideas & Suggestions  
