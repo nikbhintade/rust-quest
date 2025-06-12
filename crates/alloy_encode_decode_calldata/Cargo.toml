@@ -1,0 +1,6 @@
+[package]
+name = "alloy_encode_decode_calldata"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

@@ -3,6 +3,18 @@
 version = 4
 
 [[package]]
+name = "alloy_encode_decode_calldata"
+version = "0.1.0"
+
+[[package]]
+name = "alloy_rpc_calls"
+version = "0.1.0"
+
+[[package]]
+name = "alloy_uniswap_swap_simulator"
+version = "0.1.0"
+
+[[package]]
 name = "axum_api_key_auth"
 version = "0.1.0"
 
@@ -83,6 +95,14 @@ name = "file_writer"
 version = "0.1.0"
 
 [[package]]
+name = "hype_ws_read"
+version = "0.1.0"
+
+[[package]]
+name = "hype_ws_rw"
+version = "0.1.0"
+
+[[package]]
 name = "json_crud"
 version = "0.1.0"
 
@@ -92,6 +112,14 @@ version = "0.1.0"
 
 [[package]]
 name = "json_writer"
+version = "0.1.0"
+
+[[package]]
+name = "mpsc_hello_world"
+version = "0.1.0"
+
+[[package]]
+name = "mpsc_hyperliquid"
 version = "0.1.0"
 
 [[package]]
