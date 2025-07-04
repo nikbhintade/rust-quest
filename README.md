@@ -18,6 +18,11 @@ git clone https://github.com/nikbhintade/rust-quest.git
 cd rust-quest
 ```
 
+Creating new project:
+```
+
+```
+
 Build all projects:  
 ```sh
 cargo build
